@@ -12,6 +12,7 @@ APT репозиторий позволяет устанавливать сер�
 - `arm64`
 - `armhf`
 - `amd64`
+- `riscv64`
 
 !!! warning ""
 
@@ -20,7 +21,7 @@ APT репозиторий позволяет устанавливать сер�
 ## Добавление GPG-ключа
 
 ```sh
-sudo wget -O /etc/apt/trusted.gpg.d/debian-homed.asc \
+sudo wget -O /etc/apt/trusted.gpg.d/homed.asc \
   https://apt.homed.dev/apt.key
 ```
 
