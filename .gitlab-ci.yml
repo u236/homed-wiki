@@ -4,8 +4,8 @@ variables:
 Deploy:
   stage: deploy
   script:
+  - python scripts/zigbee.py >> docs/zigbee/devices.md || true
   - rm -rf ${DIR}/*
-  - python scripts/zigbee.py >> docs/zigbee/devices.md
   - docker run --rm -u ${UID}:${UID} -v ${PWD}:/docs -v ${DIR}:/docs/site squidfunk/mkdocs-material build
   only:
-    - master
+  - master
