@@ -25,6 +25,7 @@ names=false
 enabled=false
 prefix=homeassistant
 status=homeassistant/status
+update=false
 
 [device]
 database=/opt/homed-custom/database.json
@@ -66,6 +67,7 @@ expose=/usr/share/homed-common/expose.json
 | `enabled` | включение/выключение функции [Home Assistant MQTT Discovery](https://www.home-assistant.io/integrations/mqtt/#mqtt-discovery) |
 | `prefix`  | корневой топик для [Home Assistant MQTT Discovery](https://www.home-assistant.io/integrations/mqtt/#mqtt-discovery) |
 | `status`  | топик для отслеживания [состояния Home Assistant](https://www.home-assistant.io/integrations/mqtt/#birth-and-last-will-messages) |
+| `update`  | включение/выключение автоматического обновления `entity_id` при переименовании устройств |
 
 #### `[device]`
 

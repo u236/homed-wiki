@@ -32,6 +32,7 @@ names=false
 enabled=false
 prefix=homeassistant
 status=homeassistant/status
+update=false
 
 [device]
 database=/data/database.json
