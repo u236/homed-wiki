@@ -32,6 +32,7 @@ token=1234567890:abcdefghijklmnopqrstuvwxyz123456789
 chat=123456789
 update=true
 timeout=60
+proxy=
 ```
 
 !!! info ""
@@ -85,6 +86,7 @@ timeout=60
 | `chat`    | идентификатор _основного_ чата |
 | `update`  | включение/выключение [поллинга](https://core.telegram.org/bots/api#getupdates) обновлений бота |
 | `timeout` | таймаут получения обновлений бота |
+| `proxy`   | прокси для подключения к серверам Telegram, подроблее в [документации](https://curl.se/docs/manpage.html#--proxy) __curl__ |
 
 !!! warning ""
 
