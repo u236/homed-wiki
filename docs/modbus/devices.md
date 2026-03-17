@@ -12,6 +12,8 @@ title: 'Modbus: Поддержка устройств'
 
 | Тип устройства | Описание ||
 |----------------|----------||
+| `wbUps`            | __Wiren Board WB-UPS v3__       | источник бесперебойного питания |
+| `wbMwac`           | __Wiren Board WB-MWAC v2__      | контроллер защиты от протечек |
 | `wbM1w2`           | __Wiren Board WB-M1W2__         | датчик температуры |
 | `wbMs`             | __Wiren Board WB-MS__           | многофункциональный датчик |
 | `wbMsw`            | __Wiren Board WB-MSW__          | многофункциональный датчик |
@@ -26,6 +28,7 @@ title: 'Modbus: Поддержка устройств'
 | `wbMr3`            | __Wiren Board WB-MR3LV/MRWL3__  | модуль реле |
 | `wbMr6`            | __Wiren Board WB-MR6C/MR6-LV__  | модуль реле |
 | `wbMr6p`           | __Wiren Board WB-MR6CU/MRPS6__  | модуль реле |
+| `wbMdm`            | __Wiren Board WB-MDM3__         | силовой диммер |
 | `wbLed0`           | __Wiren Board WB-LED__          | диммер (режим _W1, W2, W3, W4_) |
 | `wbLed1`           | __Wiren Board WB-LED__          | диммер (режим _W1+W2, W3, W4_) |
 | `wbLed2`           | __Wiren Board WB-LED__          | диммер (режим _CCT1, W3, W4_) |
@@ -37,8 +40,6 @@ title: 'Modbus: Поддержка устройств'
 | `wbLed34`          | __Wiren Board WB-LED__          | диммер (режим _CCT1, CCT2_) |
 | `wbLed256`         | __Wiren Board WB-LED__          | диммер (режим _RGB, W4_) |
 | `wbLed512`         | __Wiren Board WB-LED__          | диммер (режим _W1+W2+W3+W4_) |
-| `wbMdm`            | __Wiren Board WB-MDM3__         | силовой диммер |
-| `wbUps`            | __Wiren Board WB-UPS v3__       | источник бесперебойного питания |
 | `n4dsa02`          | __Eletechsup N4DSA02__          | датчик температуры |
 | `r4pin08m0`        | __Eletechsup R4PIN08__          | контроллер ввода/вывода (режим _8DI_) |
 | `r4pin08m1`        | __Eletechsup R4PIN08__          | контроллер ввода/вывода (режим _8DO_) |

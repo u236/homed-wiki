@@ -36,10 +36,10 @@ cloud=true
 database=/opt/homed-zigbee/database.json
 properties=/opt/homed-zigbee/properties.json
 options=/opt/homed-zigbee/options.json
-ota=/opt/homed-zigbee/ota
 external=/opt/homed-zigbee/external
 library=/usr/share/homed-zigbee
 expose=/usr/share/homed-common/expose.json
+ota=/opt/homed-zigbee/ota
 
 [gpio]
 status=71
@@ -116,10 +116,10 @@ zigbee=false
 | `database`   | путь к файлу базы данных устройств |
 | `properties` | путь к файлу, в котором будут храниться актуальные (последние известные) состояния устройств |
 | `options`    | путь к файлу настройки индивидуальных опций устройств |
-| `ota`        | путь к каталогу с файлами обновлений прошивок устройств |
 | `external`   | путь к каталогу пользовательских расширений библиотеки устройств |
 | `library`    | путь к каталогу библиотеки устройств |
 | `expose`     | путь к файлу с [опциями](/common/options/) типовых [способностей](/common/exposes/) устройств |
+| `ota`        | путь к каталогу с файлами обновлений прошивок устройств |
 
 #### `[gpio]`
 
