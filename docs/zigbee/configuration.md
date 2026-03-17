@@ -251,7 +251,7 @@ port=tcp://192.168.1.23:4832
     properties=/opt/homed-zigbee/properties.json
     options=/opt/homed-zigbee/options.json
     external=/opt/homed-zigbee/external
-    library=/usr/share/homed-zigbee
+    ota=/opt/homed-zigbee/ota
 
     [gpio]
     status=/sys/class/leds/amber:act/brightness
@@ -305,7 +305,7 @@ port=tcp://192.168.1.23:4832
     properties=/opt/homed-zigbee/properties.json
     options=/opt/homed-zigbee/options.json
     external=/opt/homed-zigbee/external
-    library=/usr/share/homed-zigbee
+    ota=/opt/homed-zigbee/ota
 
     [gpio]
     status=/sys/class/leds/amber:status/brightness
@@ -356,7 +356,7 @@ port=tcp://192.168.1.23:4832
     properties=/opt/homed-zigbee/properties.json
     options=/opt/homed-zigbee/options.json
     external=/opt/homed-zigbee/external
-    library=/usr/share/homed-zigbee
+    ota=/opt/homed-zigbee/ota
 
     [gpio]
     status=/sys/class/leds/amber/brightness
@@ -409,7 +409,7 @@ port=tcp://192.168.1.23:4832
     properties=/opt/homed-zigbee/properties.json
     options=/opt/homed-zigbee/options.json
     external=/opt/homed-zigbee/external
-    library=/usr/share/homed-zigbee
+    ota=/opt/homed-zigbee/ota
 
     [gpio]
     status=/sys/class/leds/white:power/brightness
@@ -462,7 +462,7 @@ port=tcp://192.168.1.23:4832
     properties=/opt/homed-zigbee/properties.json
     options=/opt/homed-zigbee/options.json
     external=/opt/homed-zigbee/external
-    library=/usr/share/homed-zigbee
+    ota=/opt/homed-zigbee/ota
 
     [gpio]
     boot=40

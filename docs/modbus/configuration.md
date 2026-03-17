@@ -29,6 +29,7 @@ update=false
 
 [device]
 database=/opt/homed-modbus/database.json
+expose=/usr/share/homed-common/expose.json
 
 [port-1]
 port=/dev/ttyS1

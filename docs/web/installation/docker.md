@@ -30,7 +30,6 @@ prefix=homed
 [server]
 port=8080
 database=/data/database.json
-frontend=/usr/share/homed-web
 username=homed
 password=homed
 ```

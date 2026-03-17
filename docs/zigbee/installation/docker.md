@@ -43,6 +43,7 @@ database=/data/database.json
 properties=/data/properties.json
 options=/data/options.json
 external=/data/library
+ota=/data/ota
 
 [zigbee]
 adapter=ezsp
