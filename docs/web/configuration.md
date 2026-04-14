@@ -22,6 +22,7 @@ prefix=homed
 [server]
 port=8080
 database=/opt/homed-web/database.json
+title=HOMEd
 frontend=/usr/share/homed-web
 username=homed
 password=homed
@@ -59,6 +60,7 @@ guest=guest
 |----------|----------|
 | `port`     | порт сервера |
 | `database` | путь к файлу базы данных |
+| `title`    | заголовок страницы веб-интерфейса |
 | `frontend` | путь к файлам веб-интерфейса |
 | `username` | имя пользователя для авторизации в веб-интерфейсе (может быть пустым) |
 | `password` | пароль для авторизации в веб-интерфейсе (может быть пустым) |
