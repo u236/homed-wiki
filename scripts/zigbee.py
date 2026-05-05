@@ -1,24 +1,11 @@
 import time
 import requests
+
 from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
 
 fileURL = "https://raw.githubusercontent.com/u236/homed-service-zigbee/refs/heads/master/deploy/data/usr/share/homed-zigbee"
 linkURL = "https://github.com/u236/homed-service-zigbee/blob/master/deploy/data/usr/share/homed-zigbee"
-
-session = requests.Session()
-retry = Retry(total=5, backoff_factor=1, status_forcelist=[429, 500, 502, 503, 504], allowed_methods=["GET"])
-session.mount("https://", HTTPAdapter(max_retries=retry))
-
-
-def fetch(url, attempts=5):
-    for i in range(attempts):
-        try:
-            return session.get(url, timeout=30)
-        except requests.exceptions.RequestException:
-            if i == attempts - 1:
-                raise
-            time.sleep(2 ** i)
 
 files = {
     "Aqara/Xiaomi": "lumi",
@@ -40,12 +27,25 @@ files = {
     "Bacchus": "bacchus",
     "Slacky": "slacky",
     "PushOk": "pushok",
-    "...": "other",
+    "...": "other"
 }
+
+retry = Retry(total=5, backoff_factor=1, status_forcelist=[429, 500, 502, 503, 504], allowed_methods=["GET"])
+session = requests.Session()
+session.mount("https://", HTTPAdapter(max_retries=retry))
+
+def fetch(url, attempts):
+    for i in range(attempts):
+        try:
+            return session.get(url, timeout=30)
+        except requests.exceptions.RequestException:
+            if i == attempts - 1:
+                raise
+            time.sleep(2 ** i)
 
 for key, file in files.items():
 
-    response = fetch(f"{fileURL}/{file}.json")
+    response = fetch(f"{fileURL}/{file}.json", 5)
 
     if response.status_code != 200:
         continue
