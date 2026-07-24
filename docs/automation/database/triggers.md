@@ -49,13 +49,21 @@ title: 'Automation: Триггеры'
     "type": "property",
     "endpoint": "zigbee/flowerSensor",
     "property": "moisture",
-    "outside": [40, 80]
+    "outside": [40, 80],
+    "force": true
   },
   {
     "type": "property",
     "endpoint": "zigbee/bowlerPressure",
     "property": "pressure",
     "changes": 5
+  },
+  {
+    "type": "property",
+    "endpoint": "zigbee/hallMotion",
+    "property": "occupancy",
+    "equals": false,
+    "hold": 300
   },
   {
     "type": "property",
@@ -114,6 +122,10 @@ title: 'Automation: Триггеры'
 ### `updates`
 
 Триггер сработает, eсли значение свойства изменилось.
+
+### `hold`
+
+Если это поле задано, триггер сработает только в том случае, если значение свойства соответствует заданным параметрам в течение указанного времени (в секундах). Если значение перестанет соответствовать заданным параметрам до истечения этого времени, отсчет сбрасывается и начинается заново при следующем совпадении. Опция работает для всех операторов, кроме `changes` и `updates`.
 
 ### `force`
 
@@ -197,7 +209,7 @@ MQTT-топик.
 
 ### `...`
 
-Поля `equals`, `differs`, `above`, `below`, `between`, `outside`, `changes`, `updates` и `force` работают так же, как в триггере [`property`](#property).
+Поля `equals`, `differs`, `above`, `below`, `between`, `outside`, `changes`, `updates`, `hold` и `force` работают так же, как в триггере [`property`](#property).
 
 ## Триггер `telegram`
 
