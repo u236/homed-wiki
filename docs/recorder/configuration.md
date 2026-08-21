@@ -21,6 +21,7 @@ prefix=homed
 
 [database]
 file=/opt/homed-recorder/homed-recorder.db
+data=/var/lib/homed-recorder.db
 days=7
 debug=false
 ```
@@ -55,6 +56,7 @@ debug=false
 | Параметр | Описание |
 |----------|----------|
 | `file`  | путь к файлу базы данных |
+| `data`  | путь к файлу для раздельного хранения записанных данных (может быть пустым) |
 | `days`  | максимальный срок хранения записанных данных |
 | `debug` | включение/выключение отладочных логов |
 
