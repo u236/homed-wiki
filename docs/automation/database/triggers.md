@@ -359,7 +359,7 @@ MQTT-топик.
     "endpoint": "zigbee/freePad/1",
     "property": "action",
     "updates": true,
-    "name": "{{ property | zigbee/freePad/1 | action }}"
+    "name": "{{ triggerProperty }}"
   }
 ],
 "actions":
