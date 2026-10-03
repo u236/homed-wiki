@@ -57,6 +57,10 @@ write=true
 [security]
 key=
 
+[backup]
+enabled=true
+file=/data/backup.json
+
 [debug]
 port=false
 adapter=false
