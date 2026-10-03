@@ -33,3 +33,5 @@ src/gz homed_packages https://opkg.homed.dev/{architecture}
 ```
 src/gz homed_packages https://opkg.homed.dev/arm_cortex-a7_neon-vfpv4
 ```
+
+<!-- TODO: добавить описание APK репозитория (OpenWRT 25.12) и Entware репозитория -->

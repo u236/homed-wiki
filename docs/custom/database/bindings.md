@@ -202,7 +202,7 @@ MQTT-топик, который необходимо опубликовать д
 Примеры использования:
 
 ```
-{{ json.value if json.value is defined else NULL }}
+{{ json.value if json.value is defined else _NULL_ }}
 ```
 
 ```

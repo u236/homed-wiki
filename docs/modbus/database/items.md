@@ -26,7 +26,7 @@ title: 'Modbus: Карта регистров'
     },
     {
       "address": 2,
-      "registerType": "status",
+      "registerType": "input",
       "expose": "myBinarySensor",
       "type": "enum",
       "read": true

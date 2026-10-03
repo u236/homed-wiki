@@ -110,8 +110,8 @@ zigbee=false
 
 | Параметр | Описание |
 |----------|----------|
-| `enabled` | состояние функции [Home Assistant MQTT Discovery](https://www.home-assistant.io/integrations/mqtt/#mqtt-discovery) для новых устройств по умолчанию |
-| `cloud`   | состояние функции [HOMEd Cloud](/cloud/) для новых устройств по умолчанию |
+| `discovery` | состояние функции [Home Assistant MQTT Discovery](https://www.home-assistant.io/integrations/mqtt/#mqtt-discovery) для новых устройств по умолчанию |
+| `cloud`     | состояние функции [HOMEd Cloud](/cloud/) для новых устройств по умолчанию |
 
 #### `[device]`
 
@@ -146,6 +146,7 @@ zigbee=false
 | `power`    | максимальная мощность передатчика адаптера в __dBm__ |
 | `reset`    | способ управления перезагрузкой координатора, возможные значения: `gpio`, `flow`, `soft` |
 | `write`    | разрешение/запрет перезаписывать конфигурацию координатора, подробности [ниже](#_5) |
+| `join`     | ограничение времени работы режима добавления устройств в минутах |
 
 !!! warning ""
 
