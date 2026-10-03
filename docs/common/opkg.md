@@ -4,7 +4,7 @@ title: 'OPKG репозиторий'
 
 # OPKG репозиторий
 
-OPKG репозиторий позволяет устанавливать сервисы _HOMEd_ на оборудование, работающее под управлением [OpenWRT](https://openwrt.org).
+OPKG репозиторий позволяет устанавливать сервисы _HOMEd_ на оборудование, работающее под управлением [OpenWRT](https://openwrt.org) версии ниже 25.12. Для более новых версий необходимо использовать [APK](/common/apk/) репозиторий.
 
 ## Поддерживаемые архитектуры
 
@@ -33,5 +33,3 @@ src/gz homed_packages https://opkg.homed.dev/{architecture}
 ```
 src/gz homed_packages https://opkg.homed.dev/arm_cortex-a7_neon-vfpv4
 ```
-
-<!-- TODO: добавить описание APK репозитория (OpenWRT 25.12) и Entware репозитория -->

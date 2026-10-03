@@ -64,6 +64,7 @@ nav:
     - Способы установки:
       - APT репозиторий: common/apt.md
       - OPKG репозиторий: common/opkg.md
+      - APK репозиторий: common/apk.md
       - Аддоны Home Assistant: common/addons.md
     - Для разработчиков:
       - Окружение для компиляции: common/build.md
@@ -75,6 +76,7 @@ nav:
       - zigbee/installation/index.md
       - APT: zigbee/installation/apt.md
       - OPKG: zigbee/installation/opkg.md
+      - APK: zigbee/installation/apk.md
       - Docker: zigbee/installation/docker.md
       - Компиляция: zigbee/installation/build.md
     - Конфигурация: zigbee/configuration.md
@@ -88,6 +90,7 @@ nav:
       - modbus/installation/index.md
       - APT: modbus/installation/apt.md
       - OPKG: modbus/installation/opkg.md
+      - APK: modbus/installation/apk.md
       - Docker: modbus/installation/docker.md
       - Компиляция: modbus/installation/build.md
     - Конфигурация: modbus/configuration.md
@@ -101,6 +104,7 @@ nav:
       - custom/installation/index.md
       - APT: custom/installation/apt.md
       - OPKG: custom/installation/opkg.md
+      - APK: custom/installation/apk.md
       - Docker: custom/installation/docker.md
       - Компиляция: custom/installation/build.md
     - Конфигурация: custom/configuration.md
@@ -114,6 +118,7 @@ nav:
       - automation/installation/index.md
       - APT: automation/installation/apt.md
       - OPKG: automation/installation/opkg.md
+      - APK: automation/installation/apk.md
       - Docker: automation/installation/docker.md
       - Компиляция: automation/installation/build.md
     - Конфигурация: automation/configuration.md
@@ -130,6 +135,7 @@ nav:
       - recorder/installation/index.md
       - APT: recorder/installation/apt.md
       - OPKG: recorder/installation/opkg.md
+      - APK: recorder/installation/apk.md
       - Docker: recorder/installation/docker.md
       - Компиляция: recorder/installation/build.md
     - Конфигурация: recorder/configuration.md
@@ -140,6 +146,7 @@ nav:
       - web/installation/index.md
       - APT: web/installation/apt.md
       - OPKG: web/installation/opkg.md
+      - APK: web/installation/apk.md
       - Docker: web/installation/docker.md
       - Компиляция: web/installation/build.md
     - Конфигурация: web/configuration.md
@@ -150,6 +157,7 @@ nav:
       - cloud/installation/index.md
       - APT: cloud/installation/apt.md
       - OPKG: cloud/installation/opkg.md
+      - APK: cloud/installation/apk.md
       - Docker: cloud/installation/docker.md
       - Компиляция: cloud/installation/build.md
     - Конфигурация: cloud/configuration.md
