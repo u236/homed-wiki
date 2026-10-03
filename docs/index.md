@@ -10,7 +10,7 @@ title: 'HOMEd'
 
 _HOMEd_ это набор маленьких и быстрых сервисов для организации системы умного дома, среди которых есть сервисы для работы с ZigBee-сетью, веб-интерфейс, рекордер статистики, служба автоматизаций и многое другое, включая возможность интеграции с [Home Assistant](https://www.home-assistant.io) и [Умным домом Яндекса](https://alice.yandex.ru/smart-home).
 
-Все сервисы написаны на С++ с использованием фреймворка [_Qt 5_](https://doc.qt.io/qt-5) и общаются друг с другом при помощи MQTT-брокера. Выглядит это приблизительно так:
+Все сервисы написаны на C++ с использованием фреймворка [_Qt 5_](https://doc.qt.io/qt-5) и общаются друг с другом при помощи MQTT-брокера. Выглядит это приблизительно так:
 
 [![HOMEd Services](/assets/img/diagram/service-light.png#only-light)](/assets/img/diagram/service-light.png)
 [![HOMEd Services](/assets/img/diagram/service-dark.png#only-dark)](/assets/img/diagram/service-dark.png)

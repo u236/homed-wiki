@@ -65,7 +65,7 @@ proxy=
 
 | Параметр | Описание |
 |----------|----------|
-| `database` | путь к файлу [базы данных](/automation/database/) автоматизаций|
+| `database` | путь к файлу [базы данных](/automation/database/) автоматизаций |
 
 #### `[location]`
 
@@ -86,7 +86,7 @@ proxy=
 | `chat`    | идентификатор _основного_ чата |
 | `update`  | включение/выключение [поллинга](https://core.telegram.org/bots/api#getupdates) обновлений бота |
 | `timeout` | таймаут получения обновлений бота |
-| `proxy`   | прокси для подключения к серверам Telegram, подроблее в [документации](https://curl.se/docs/manpage.html#--proxy) __curl__ |
+| `proxy`   | прокси для подключения к серверам Telegram, подробнее в [документации](https://curl.se/docs/manpage.html#--proxy) __curl__ |
 
 !!! warning ""
 

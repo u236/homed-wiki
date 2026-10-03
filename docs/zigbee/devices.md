@@ -6,7 +6,7 @@ title: 'ZigBee: Поддержка устройств'
 
 Список поддерживаемых устройств невелик, но он периодически пополняется.
 
-Для добавления поддержки новых устройств можно почитать [статью](/zigbee/library/) о библиотеке устройств, создать запрос на [GitHub](https://github.com/u236/homed-service-zigbee/issues) или заглянуь на [канал](https://t.me/homed_info) проекта в Telegram.
+Для добавления поддержки новых устройств можно почитать [статью](/zigbee/library/) о библиотеке устройств, создать запрос на [GitHub](https://github.com/u236/homed-service-zigbee/issues) или заглянуть на [канал](https://t.me/homed_info) проекта в Telegram.
 
 !!! info ""
 

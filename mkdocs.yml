@@ -91,7 +91,7 @@ nav:
       - Docker: modbus/installation/docker.md
       - Компиляция: modbus/installation/build.md
     - Конфигурация: modbus/configuration.md
-    - База даннных:
+    - База данных:
       - modbus/database/index.md
       - Карта регистров: modbus/database/items.md
 
@@ -104,7 +104,7 @@ nav:
       - Docker: custom/installation/docker.md
       - Компиляция: custom/installation/build.md
     - Конфигурация: custom/configuration.md
-    - База даннных:
+    - База данных:
       - custom/database/index.md
       - Биндинги: custom/database/bindings.md
 
@@ -117,7 +117,7 @@ nav:
       - Docker: automation/installation/docker.md
       - Компиляция: automation/installation/build.md
     - Конфигурация: automation/configuration.md
-    - База даннных:
+    - База данных:
       - automation/database/index.md
       - Триггеры: automation/database/triggers.md
       - Условия: automation/database/conditions.md

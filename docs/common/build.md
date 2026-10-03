@@ -8,7 +8,7 @@ title: 'Окружение для компиляции'
 
 Данные компиляторы [GCC](https://ru.wikipedia.org/wiki/GNU_Compiler_Collection) предназначены для работы в среде `Linux` на процессорах с архитектурой `amd64`.
 
-| Платформа | Целевая aрхитектурв | Компилятор |
+| Платформа | Целевая архитектура | Компилятор |
 |-----------|---------------------|------------|
 | Linux   | aarch64                  | [gcc-aarch64-none-linux-gnu-10.2.0.tar.xz](https://sandbox.u236.org/toolchain/gcc/gcc-aarch64-none-linux-gnu-10.2.0.tar.xz) |
 | Linux   | armhf                    | [gcc-arm-linux-gnuebihf-9.4.0.tar.xz](https://sandbox.u236.org/toolchain/gcc/gcc-arm-linux-gnuebihf-9.4.0.tar.xz) |
@@ -25,11 +25,11 @@ title: 'Окружение для компиляции'
 
 Данные сборки [_Qt 5_](https://doc.qt.io/qt-5) предназначены для использования в среде `Linux` на процессорах с архитектурой `amd64`.
 
-| Платформа | Целевая aрхитектурв | Сборка |
+| Платформа | Целевая архитектура | Сборка |
 |-----------|---------------------|--------|
 | Linux   | amd64                    | [qt-amd64-linux-5.15.4-shared.tar.xz](https://sandbox.u236.org/toolchain/qt/qt-amd64-linux-5.15.4-shared.tar.xz) |
 | Linux   | aarch64                  | [qt-aarch64-linux-gnu-5.15.4-shared.tar.xz](https://sandbox.u236.org/toolchain/qt/qt-aarch64-linux-gnu-5.15.4-shared.tar.xz) |
-| Linux   | armhf                    | [qt-arm-linux-gnueabihf-5.15.4-share.tar.xz](https://sandbox.u236.org/toolchain/qt/qt-arm-linux-gnueabihf-5.15.4-shared.tar.xz) |
+| Linux   | armhf                    | [qt-arm-linux-gnueabihf-5.15.4-shared.tar.xz](https://sandbox.u236.org/toolchain/qt/qt-arm-linux-gnueabihf-5.15.4-shared.tar.xz) |
 | OpenWRT | aarch64_generic          | [qt-aarch64_generic-openwrt-linux-5.15.4-shared.tar.xz](https://sandbox.u236.org/toolchain/qt/qt-aarch64_generic-openwrt-linux-5.15.4-shared.tar.xz) |
 | OpenWRT | arm_cortex-a7_neon-vfpv4 | [qt-arm_cortex-a7_neon-vfpv4-openwrt-linux-5.15.4-shared.tar.xz](https://sandbox.u236.org/toolchain/qt/qt-arm_cortex-a7_neon-vfpv4-openwrt-linux-5.15.4-shared.tar.xz) |
 | OpenWRT | arm_cortex-a9_neon       | [qt-arm_cortex-a9_neon-openwrt-linux-5.15.4-shared.tar.xz](https://sandbox.u236.org/toolchain/qt/qt-arm_cortex-a9_neon-openwrt-linux-5.15.4-shared.tar.xz) |
@@ -83,11 +83,11 @@ title: 'Окружение для компиляции'
 |----------|----------|
 | `-shared`    | динамическая линковка, для статической линковки нужно заменить на `-static` |
 | `-prefix`    | путь для установки после компиляции |
-| `-xplatform` | целевая aрхитектурв |
+| `-xplatform` | целевая архитектура |
 
 Выбор целевой платформы:
 
-| Платформа | Целевая aрхитектурв | Значение `-xplatform` |
+| Платформа | Целевая архитектура | Значение `-xplatform` |
 |-----------|---------------------|-----------------------|
 | Linux   | aarch64 | `linux-aarch64-gnu-g++` |
 | Linux   | armhf   | `linux-arm-gnueabihf-g++` |
@@ -98,7 +98,7 @@ title: 'Окружение для компиляции'
 | OpenWRT | mipsel  | `openwrt-mipsel-linux-g++` |
 | Entware | aarch64 | `entware-aarch64-linux-g++` |
 | Entware | mips    | `entware-mips-linux-g++` |
-| Entware | mipsel  |`entware-mipsel-linux-g++` |
+| Entware | mipsel  | `entware-mipsel-linux-g++` |
 | ... |
 
 ### Компиляция и установка:

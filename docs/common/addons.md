@@ -23,6 +23,6 @@ https://github.com/u236/homed-ha-addons
 
 ## Конфигурация
 
-Файлы конфигурации сервисов хранятся на хосте, в каталогах `/addon_configs/<addon slug> `.
+Файлы конфигурации сервисов хранятся на хосте, в каталогах `/addon_configs/<addon slug>`.
 
-Для редактирования файлов конфигурации можно использовать аддон [File Editor](https://github.com/home-assistant/addons/blob/master/configurator/README.md) c ___выключенной___ опцией "Enforce Basepath".
+Для редактирования файлов конфигурации можно использовать аддон [File Editor](https://github.com/home-assistant/addons/blob/master/configurator/README.md) с ___выключенной___ опцией "Enforce Basepath".

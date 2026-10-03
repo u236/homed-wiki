@@ -20,7 +20,7 @@ title: 'Modbus: Карта регистров'
       "dataType": "u16",
       "byteOrder": "be",
       "divider": 0.01,
-      "expose": "myMumber",
+      "expose": "myNumber",
       "type": "value",
       "read": true
     },
@@ -42,7 +42,7 @@ title: 'Modbus: Карта регистров'
 
 ## Параметры регистров
 
-### `address `
+### `address`
 
 Адрес регистра в десятичном формате.
 
