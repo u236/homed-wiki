@@ -213,6 +213,73 @@ MQTT-топик.
 
 Поля `equals`, `differs`, `above`, `below`, `between`, `outside`, `changes`, `updates`, `hold` и `force` работают так же, как в триггере [`property`](#property).
 
+## Триггер `state`
+
+Этот триггер срабатывает, если значение определенного [состояния](/automation/database/#_4) изменилось.
+
+Примеры описания триггера:
+
+```json
+...
+"triggers":
+[
+  {
+    "type": "state",
+    "state": "alarmMode",
+    "equals": "on"
+  },
+  {
+    "type": "state",
+    "state": "guestMode",
+    "differs": true
+  },
+  {
+    "type": "state",
+    "state": "counter",
+    "above": 10
+  },
+  {
+    "type": "state",
+    "state": "batteryLevel",
+    "below": 20
+  },
+  {
+    "type": "state",
+    "state": "targetTemperature",
+    "between": [20, 25]
+  },
+  {
+    "type": "state",
+    "state": "waterLevel",
+    "outside": [30, 70],
+    "hold": 60
+  },
+  {
+    "type": "state",
+    "state": "energyMeter",
+    "changes": 100
+  },
+  {
+    "type": "state",
+    "state": "lastUser",
+    "updates": true
+  }
+]
+...
+```
+
+!!! warning ""
+
+    Поля `equals`, `differs`, `above`, `below`, `between`, `outside`, `changes` и `updates` не могут использоваться в одном триггере одновременно.
+
+### `state`
+
+Название состояния.
+
+### `...`
+
+Поля `equals`, `differs`, `above`, `below`, `between`, `outside`, `changes`, `updates`, `hold` и `force` работают так же, как в триггере [`property`](#property).
+
 ## Триггер `telegram`
 
 Этот триггер срабатывает при получении сообщения с заданным текстом от Telegram-бота.
